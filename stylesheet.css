@@ -1,0 +1,43 @@
+
+body{
+   max-width: 700px;
+   margin: 0 auto;
+   padding: 1em;
+   display: block;
+ 
+}
+header, footer{
+   
+    background-color: rgb(168, 100, 231);
+    text-align: center;
+    height: 80px;
+    border-radius: 10px;
+  
+
+}
+header, main, footer{
+    margin: 1.75rem auto;
+    max-width: 760px;
+
+}
+
+h1{
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+ }
+footer p{
+    padding-top: 20px;
+ }
+header img {
+    float: right;
+    border-radius: 10px;
+    padding-top: 20px;
+   
+}
+
+
+main h1{
+    border-bottom: 1px solid #000;
+
+}
