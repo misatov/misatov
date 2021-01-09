@@ -1,43 +1,32 @@
-
 body{
-   max-width: 700px;
-   margin: 0 auto;
-   padding: 1em;
- 
+    font-size: 16px;
+    line-height: 2;
 }
+
+header, main, footer{
+    margin: 1.75rem auto;
+    max-width: 760px;
+    font-family: Helvetica;
+  
+
+}
+
 header, footer{
    
     background-color: rgb(168, 100, 231);
     text-align: center;
     height: 80px;
     border-radius: 10px;
-  
+    padding:1.5em;
+    font-weight: bold;
+    color:white;
+
 
 }
-header, main, footer{
-    margin: 1.25rem auto;
-    max-width: 750px;
-
-}
-header{
-    display: block;
-}
-
-header h1{
-    padding-top: 20px;
- }
-footer p{
-    padding-top: 20px;
- }
-img{
+img {
+    width: 120px;
     float: right;
-    border-radius: 10px;
-}
-
-main{
-    height: 350px;
-}
-main h1{
-    border-bottom: 1px solid #000;
-
+    margin: 30px;
+   
+   
 }
