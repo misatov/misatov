@@ -18,7 +18,22 @@ footer {
   font-family: "Ubuntu", sans-serif;
 }
 
-header,
+header {
+  background-color: rgb(168, 100, 231);
+  text-align: center;
+  height: 80px;
+  padding: 1.5em;
+  font-weight: bold;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  
+}
+header img {
+  width: 120px;
+  margin: 30px;
+}
+
 footer {
   background-color: rgb(168, 100, 231);
   text-align: center;
@@ -28,7 +43,6 @@ footer {
   color: white;
   font-family: "Bebas Neue", cursive;
 }
-header img {
-  width: 120px;
-  margin: 30px;
+.name{
+  font-size: 1rem;
 }
