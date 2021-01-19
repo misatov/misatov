@@ -1,0 +1,58 @@
+body {
+  font-size: 18px;
+  line-height: 2;
+}
+
+header,
+main,
+footer {
+  margin: 1.75rem auto;
+  font-family: Helvetica;
+}
+
+header,
+footer {
+  background-color: #3e2f5b;
+  text-align: center;
+  height: 80px;
+  border-radius: 10px;
+  padding: 1.5em;
+  font-weight: bold;
+  color: #fff;
+}
+h1 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+}
+h2 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+}
+p {
+  color: #fff;
+  padding: 1.25rem;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5em;
+  padding: 2.5em 1em 2.5em;
+}
+section {
+  background-color: #ceabb1;
+  border: 2px solid #3e2f5b;
+  text-align: center;
+  max-width: 1/3fr;
+}
+img {
+  max-width: 300px;
+  height: auto;
+  margin: 0 10px;
+}
+footer a {
+  color: burlywood;
+}
+footer a:hover {
+  color: rgb(90, 149, 236);
+}

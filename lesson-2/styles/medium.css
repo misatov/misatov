@@ -1,0 +1,15 @@
+@media (min-width: 37.5em){
+    header{
+        font-size: 1.2em;
+
+    }
+    .home-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section:nth-child(3){
+        grid-column: span 2;
+    }
+}
+    
