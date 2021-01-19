@@ -56,3 +56,6 @@ footer a {
 footer a:hover {
   color: rgb(90, 149, 236);
 }
+header h1{
+  margin-top: 0;
+}
