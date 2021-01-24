@@ -1,0 +1,44 @@
+
+body{
+    font-size: 16px;
+    line-height: 2;
+    
+}
+h1{
+    font-style: 1.5rem;
+}
+header,main,footer,{
+    margin: 1.25rem auto;
+    max-width: 960px;
+    font-family: 'Alfa Slab One', cursive;
+
+
+}
+
+header,footer{
+    background-color: #a9d3ff;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    
+
+}
+main{
+    padding: 0 400px;
+}
+nav{
+    background-color: #93ACB5;
+    font-style: 1.75rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+
+}
+nav ul{
+ 
+    list-style-type: none;
+    color: #fff;
+}
+
+nav :hover{
+    color: #f2f4ff;
+    border-bottom: 10px solid #f2f4ff;
+}
