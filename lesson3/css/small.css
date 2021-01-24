@@ -12,6 +12,7 @@ header,footer{
      flex-flow: column;
      background-color: #a9d3ff;
      align-items: center;
+
      justify-content:center;
      padding: 10px;
      text-align: center;
@@ -54,8 +55,6 @@ nav ul li a{
     font-style: 1rem;
     text-align: center;
     color: #6C756B;
-    
-   
 }
 
 nav ul li a:hover{
