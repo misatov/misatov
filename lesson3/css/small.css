@@ -17,7 +17,7 @@ header,footer{
  
  }
 header,main,nav,footer{
-    margin: 1.25rem auto;
+    margin: 0 auto;
     font-family: 'Alfa Slab One', cursive;
 
 }
@@ -26,6 +26,7 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     padding: 0 2rem;
+    
    
 }
 nav{
@@ -51,10 +52,12 @@ nav ul li a{
     display: block;
     font-style: 1rem;
     text-align: center;
+    
    
 }
 
 nav ul li a:hover{
+    display: block; /* 本当はブロックにしたいがNavが動いてしまう*/
     color: #f2f4ff;
     border-bottom: 10px solid #f2f4ff;
    
@@ -62,4 +65,5 @@ nav ul li a:hover{
 footer{
     flex: 0 1 100%;
     height: 2rem;
+   
 }
