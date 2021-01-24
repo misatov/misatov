@@ -4,8 +4,9 @@ body{
     line-height: 2;
     
 }
-h1{
+h1, h2{
     font-style: 1.5rem;
+    color: #6C756B;
 }
 header,footer{
      display: flex;
@@ -66,7 +67,9 @@ nav ul li a:hover{
 footer{
     flex: 0 1 100%;
     height: auto;
-   
+}
+footer p{
+    color:#6C756B;
 }
 
 .color{
