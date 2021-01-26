@@ -1,0 +1,11 @@
+@media (min-width: 37.5em) {
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    flex: 1 1 100%;
+  }
+  main {
+    padding: 0 120px;
+  }
+}

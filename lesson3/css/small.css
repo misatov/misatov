@@ -8,6 +8,10 @@ h1, h2{
     font-style: 1.5rem;
     color: #6C756B;
 }
+p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #a3acb5;
+}
 header,footer{
      display: flex;
      flex-flow: column;
