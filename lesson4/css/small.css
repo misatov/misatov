@@ -14,7 +14,6 @@ p{
 header,footer{
     display: flex;
     flex-flow: column;
-
     background-color: #a9d3ff;
     align-items: center;
 }
@@ -60,6 +59,16 @@ nav ul li a{
     color: #f2f4ff;
     background-color: rgba(0,0,0,0.4);
 
+}
+main{
+    width:95%;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+main p{
+    border: 2px dotted #555;
+    justify-items: center;
 }
 
 
