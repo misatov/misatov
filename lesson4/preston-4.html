@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=M+PLUS+Rounded+1c&display=swap"
+        rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
+
     <title>Weather Eye Network</title>
 </head>
 <body>
     <header>
         <img src="images/weathericon.png" alt="Weather Icon">
         <h1>Weather Eye Network</h1>
-        <nav>
-            <ul class="navigation">
-                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Preston</a></li>
-                <li><a href="#">Soda Spring</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>
-            </ul>
-        </nav>
+       
     </header>
+    <nav>
+        <ul class="navigation">
+            <button onclick="toggleMenu()"&#9776;>Menu</button>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
     <main></main>
     <footer>
-
+        <p>&copy;2021| Misato Velazquez| Texas |<a href="https://www.byui.edu/online">BYUI Online Learning</a>|<br>Today's
+            date:<span id="currentdate"></span></p></footer>
     </footer>
+    <script src="js/date.js"></script>
     
 </body>
 </html>
