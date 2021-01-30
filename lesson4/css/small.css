@@ -18,6 +18,12 @@ header,footer{
     background-color: #a9d3ff;
     align-items: center;
 }
+main{
+    width:95%;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
 
 nav button{
     margin: .2rem 2%;
@@ -55,9 +61,7 @@ nav ul li a{
     background-color: rgba(0,0,0,0.4);
 
 }
-nav ul li.active a{
-    background-color:rgba(0,0,0,0.2); color:#fff;
-}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
