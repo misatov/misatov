@@ -9,7 +9,15 @@
 .navigation a{
     text-align: center;
 }
-.navigation li:first-child{
+nav button li:first-child{
     display:none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    border:none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .8rem 1rem;
 }
 }

@@ -19,29 +19,49 @@ header,footer{
     align-items: center;
 }
 
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+
+}
 nav{
     margin: 0 auto;
    background-color:#93ACB5;
 }
-.navigation{
+nav li{
     list-style-type: none;
     padding:0;
+    margin: 0;
 }
 .navigation li:first-child{
     display: block;
 }
-.navigation a{
+nav ul li a{
     display: block;
-    padding: 0.75rem;
+    padding: 0.75rem 2%;
     text-align: center;
     text-decoration:none;
-    color:#6C756B;
+    color:#555;
     font-weight: 700;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-top: 1px solid rgba(0,0,0,0.3);
 
 }
 .navigation a:hover{
     color: #f2f4ff;
-    border-bottom: 7px solid #f2f4ff;
+    background-color: rgba(0,0,0,0.4);
 
 }
+nav ul li.active a{
+    background-color:rgba(0,0,0,0.2); color:#fff;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
