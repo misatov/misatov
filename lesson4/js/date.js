@@ -1,4 +1,4 @@
-function currentdate() {
+
     let daynames = [
         "Sunday",
         "Monday",
@@ -28,4 +28,3 @@ function currentdate() {
     let year = d.getFullYear();
     let fulldate = dayName + "," + " " + d.getDate() + " " + monthName + " " + year;
     document.getElementById("currentdate").textContent = fulldate;
-}
