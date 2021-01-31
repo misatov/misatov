@@ -6,6 +6,7 @@ body{
 h1, h2{
     font-size: 1.5rem;
     color: #6C756B;
+    font-family: 'Alfa Slab One', cursive;
 }
 p{
     font-family: 'M PLUS Rounded 1c', sans-serif;
