@@ -10,7 +10,7 @@
         text-align: center;
     }
     nav button li:first-child{
-        display:none;
+        display:block;
     }
     nav ul li{
         float: left;

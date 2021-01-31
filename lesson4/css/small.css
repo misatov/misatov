@@ -41,8 +41,8 @@ nav li{
     padding:0;
     margin: 0;
 }
-.navigation li:first-child{
-    display: block;
+button{
+    display:none;
 }
 nav ul li a{
     display: block;
@@ -67,8 +67,14 @@ main{
     
 }
 main p{
-    border: 2px dotted #555;
-    justify-items: center;
+    display:flex;
+    border: 2px dotted #6C756B;
+    align-items: center;
+    justify-content: center;
+    color: #6C756B;
+    font-size: 2rem;
+    padding: 0 auto;
+    
 }
 
 
