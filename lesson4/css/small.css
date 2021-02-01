@@ -12,17 +12,17 @@ p{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #a3acb5;
 }
-header,footer{
+header{
+    display: flex;
+    background-color: #a9d3ff;
+    align-items: center;
+    justify-content: center;
+}
+footer{
     display: flex;
     flex-flow: column;
     background-color: #a9d3ff;
     align-items: center;
-}
-main{
-    width:95%;
-    max-width: 800px;
-    margin: 0 auto;
-    
 }
 
 nav button{
@@ -31,7 +31,7 @@ nav button{
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #555;
+    color: #fff;
 
 }
 nav{
@@ -75,6 +75,7 @@ main p{
     align-items: center;
     justify-content: center;
     color: #6C756B;
+
     font-size: 2rem;
     padding: 0 auto;
     

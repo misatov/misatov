@@ -1,4 +1,7 @@
 @media (min-width: 67.5em){
+    header{
+        flex-flow: column;
+    }
     .navigation{
         display: flex;
     }
