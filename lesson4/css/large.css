@@ -12,8 +12,8 @@
     .navigation a{
         text-align: center;
     }
-    nav button li:first-child{
-        display:block;
+    nav button {
+        display:none;
     }
     nav ul li{
         float: left;

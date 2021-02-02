@@ -16,7 +16,7 @@ header{
     display: flex;
     background-color: #a9d3ff;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around; 
 }
 footer{
     display: flex;
@@ -26,7 +26,7 @@ footer{
 }
 
 nav button{
-    display:none;
+    display:flex;
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
@@ -37,8 +37,11 @@ nav button{
 nav{
     margin: 0 auto;
    background-color:#93ACB5;
-  
-   
+ 
+}
+
+nav ul.hide{
+    display:none;
 }
 
 nav ul{
@@ -46,7 +49,6 @@ nav ul{
     padding:0;
     margin: 0 auto;
 }
-
 nav ul li a{
     display: block;
     padding: 0.75rem 2%;
