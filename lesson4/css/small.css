@@ -15,14 +15,25 @@ p{
 header{
     display: flex;
     background-color: #a9d3ff;
+    align-content: center;
     align-items: center;
     justify-content: space-around; 
+}
+header picture img{
+    width:80px;
+}
+header section h1{
+    margin-bottom: -5px;
+}
+header section p{
+    margin-top:-5px;
 }
 footer{
     display: flex;
     flex-flow: column;
     background-color: #a9d3ff;
-    align-items: center;
+    text-align: center;
+    
 }
 
 nav button{
@@ -32,12 +43,13 @@ nav button{
     border: none;
     font-size: 1.6rem;
     color: #fff;
+    
 
 }
 nav{
     margin: 0 auto;
    background-color:#93ACB5;
- 
+    align-items: center;
 }
 
 nav ul.hide{
