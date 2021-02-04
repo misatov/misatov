@@ -27,6 +27,8 @@ header section h1{
 }
 header section p{
     margin-top:-5px;
+    justify-content: center;
+    text-align: center;
 }
 footer{
     display: flex;
