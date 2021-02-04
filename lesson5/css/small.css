@@ -1,0 +1,104 @@
+body{
+    font-size: 16px;
+    line-height: 2;
+    
+}
+h1, h2{
+    font-size: 1.5rem;
+    color: #6C756B;
+    font-family: 'Alfa Slab One', cursive;
+}
+p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #a3acb5;
+}
+header{
+    display: flex;
+    background-color: #a9d3ff;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around; 
+}
+header picture img{
+    width:80px;
+}
+header section h1{
+    margin-bottom: -5px;
+}
+header section p{
+    margin-top:-5px;
+}
+footer{
+    display: flex;
+    flex-flow: column;
+    background-color: #a9d3ff;
+    text-align: center;
+    
+}
+
+nav button{
+    display:flex;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+    
+
+}
+nav{
+    margin: 0 auto;
+   background-color:#93ACB5;
+    align-items: center;
+}
+
+nav ul.hide{
+    display:none;
+}
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0 auto;
+}
+nav ul li a{
+    display: block;
+    padding: 0.75rem 2%;
+    text-align: center;
+    text-decoration:none;
+    color:#555;
+    font-weight: 700;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-top: 1px solid rgba(0,0,0,0.3);
+
+}
+.navigation a:hover{
+    color: #f2f4ff;
+    background-color: rgba(0,0,0,0.4);
+
+}
+main{
+    width:95%;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+main p{
+    display:flex;
+    border: 2px dotted #6C756B;
+    align-items: center;
+    justify-content: center;
+    color: #6C756B;
+
+    font-size: 2rem;
+    padding: 0 auto;
+    
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
