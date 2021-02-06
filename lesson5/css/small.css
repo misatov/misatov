@@ -10,7 +10,8 @@ h1, h2{
 }
 p{
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: #a3acb5;
+    color: #6C756B;
+    font-weight: bold;
 }
 header{
     display: flex;
