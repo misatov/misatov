@@ -139,11 +139,14 @@ table tr td img{
     margin:0 auto;
    
 }
+
 .info{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin: 10px 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 10px 0;
+   
 }
+
 .info img{
     width:100%;
 }
