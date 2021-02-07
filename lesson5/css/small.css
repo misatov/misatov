@@ -123,14 +123,26 @@ main p {
     color:white;
     letter-spacing: 0.1rem;
 }
+.forecasttable{
+    vertical-align: center;
+    background-color: rgba(70, 69, 117, 0.3);
 
+}
+table tr td{
+    padding:0 auto;
+
+}
+
+
+table tr td img{
+    width: 50%;
+    margin:0 auto;
+   
+}
 .info{
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin: 10px 0;
-}
-table tr td img{
-    width: 50%;
 }
 .info img{
     width:100%;
