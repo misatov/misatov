@@ -23,6 +23,11 @@
         border-right: 1px solid rgba(0,0,0,0.3);
         padding: .8rem 1rem;
     }
+    .info{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin: 10px 0;
+    }
    
 
 }
