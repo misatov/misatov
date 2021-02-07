@@ -98,17 +98,26 @@ main p {
 .hero img{
     width:100%;
 }
-.wsummary{
+.summary{
   position:absolute;
   border: 1px solid #6c756b;
   background-color:#f2f4ff;
+  text-align: center;
+  align-items: center;
   
 }
-.wsummary ul li{
-    list-style-type:none;
+.summary ul{
+    padding: 0;
+    margin-top: 5px;
 }
-.wsummary h1{
-    text-size-adjust: 12px;
+.summary ul li{
+    list-style-type:none;
+    
+}
+.summary h1{
+    font-size: 24
+    px;
+    margin: 0 20px;
 }
 
 .info{
