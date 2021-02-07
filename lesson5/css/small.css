@@ -100,10 +100,12 @@ main p {
 }
 .summary{
   position:absolute;
-  border: 1px solid #6c756b;
+  border: 1px solid white;
   background-color:rgba(70, 69, 117, 0.3);
   text-align: center;
   align-items: center;
+  margin:2rem;
+  color: white;
   
 }
 .summary ul{
@@ -112,12 +114,14 @@ main p {
 }
 .summary ul li{
     list-style-type:none;
+   
     
 }
 .summary h1{
-    font-size: 24
-    px;
+    font-size: 24px;
     margin: 0 20px;
+    color:white;
+    letter-spacing: 0.1rem;
 }
 
 .info{
@@ -138,6 +142,10 @@ table tr td img{
     font-size: 1em;
     border:none;
     
+}
+.map{
+    width: 300px;
+    padding: 3rem;
 }
 
 
