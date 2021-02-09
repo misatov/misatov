@@ -2,6 +2,13 @@
     header{
         flex-flow: column;
     }
+    footer {
+        display: flex;
+        background-color: #a9d3ff;
+        text-align: center;
+        justify-content: center;
+       
+      }
     .navigation{
         display: flex;
     }
@@ -28,6 +35,12 @@
         grid-template-columns: 2fr 1fr;
         margin: 10px 0;
     }
-   
+    .summary h1{
+        font-size: 24px;
+        
+    }
+   .forecast{
+       display:block;
+   }
 
 }
