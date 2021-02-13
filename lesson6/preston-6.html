@@ -55,7 +55,13 @@
 
                 </ul>
             </section>
-            <img src="images/winterweather.jpg">
+            <picture>
+            <source srcset="images/medium800.jpg" media="(min-width:375px) and (max-width:499px)">
+            <source srcset="images/small400.png" media="(min-width:500px) and (max-width:799px)">
+            <source srcset="images/large1200.jpg" media="(min-width:800px)">
+                <img src="images/winterweather.jpg" alt="winterimage">
+
+        </picture>
         </div>
 
         <section class="forecast">
