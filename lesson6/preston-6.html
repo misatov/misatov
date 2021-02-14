@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="images/favicon.ico" rel="shortcut icon">
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=M+PLUS+Rounded+1c&display=swap"
-        rel="stylesheet">
+    
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -16,6 +15,7 @@
 </head>
 
 <body>
+    <div id="pan">Saturday = Preston Pancakes event! 9:00 a.m. Saturday at the city park pavilion.</div>
     <header>
         <picture><img src="images/weathericon.png" alt="Weather Icon"></picture>
 
@@ -47,11 +47,11 @@
                 <h1>Weather Summary</h1>
                 
                 <ul>
-                    <li>Currently:Sunny</li>
-                    <li>Hight: 76F</li>
-                    <li>Wind Chill: F</li>
+                    <li>Currently:<span id="temp">48</span>&deg;F</li>
+                    <li>High: 76&deg;F</li>
+                    <li>Wind Chill:<span id="windchill"></span>&deg; F</li>
                     <li>Humidity: 69%</li>
-                    <li>Wind Speed:5 mph</li>
+                    <li>Wind Speed:<span id="speed">5</span> mph</li>
 
                 </ul>
             </section>
@@ -149,6 +149,9 @@
     <script src="js/script.js"></script>
     <script src="js/bannerad.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/windchill.js"></script>
 
 </body>
 

@@ -186,3 +186,10 @@ footer{
   display: table;
   clear: both;
 }
+#pan{
+  font-weight: bold;
+  text-align: center;
+  background-color: blue;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #fff;
+}

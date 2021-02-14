@@ -1,4 +1,4 @@
-function pancakes() {
+function bannerad() {
     var d = new Date();
     var weekday = new Array(7);
     weekday[0] = "Sunday";
@@ -10,10 +10,10 @@ function pancakes() {
     weekday[6] = "Saturday";
     
     var n = weekday[d.getDay()];
-    if (n == "Friday"){
-        document.getElementById("pan").style.display = "block"; /*visible*/
+    if (n == "Saturday"){
+        document.getElementById("pan").style.display = "block"; 
 
     }else {
-        document.getElementById("pan").style.display = "none"; /*hidden*/
+        document.getElementById("pan").style.display = "none"; 
     }
 }
