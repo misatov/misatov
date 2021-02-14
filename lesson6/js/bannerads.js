@@ -10,7 +10,7 @@ function bannerad() {
     weekday[6] = "Saturday";
     
     var n = weekday[d.getDay()];
-    if (n == "Saturday"){
+    if (n == "Friday"){
         document.getElementById("pan").style.display = "block"; 
 
     }else {
