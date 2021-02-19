@@ -27,11 +27,11 @@ if('IntersectionObserver' in window){
         });
     },imgOptions);
 
-imagesToLoad.forEach((image) =>{
-    imgObserver.observe(image);
+imagesToLoad.forEach((img) =>{
+    imgObserver.observe(img);
 });
 }else{
-    imagesToLoad.forEach((image) =>{
-        loadImages(image);
+    imagesToLoad.forEach((img) =>{
+        loadImages(img);
     });
 }
