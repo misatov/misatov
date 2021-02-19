@@ -12,5 +12,5 @@ img{
     filter: blur(0px);
 }
 img[data-src]{
-filter: blur(2px);
+    filter: blur(2px);
 }
