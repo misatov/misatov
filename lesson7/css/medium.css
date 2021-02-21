@@ -2,4 +2,14 @@
 iframe{
     display:inline-block;
 }
+.galleryimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+figure figcaption{
+    display: block;
+   justify-content: center;
+  
+  }
 }

@@ -193,3 +193,15 @@ footer{
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: #fff;
 }
+.galleryimages{
+  justify-content: center;
+  align-items: center;
+}
+figure img{
+  width: 100%;
+}
+figure figcaption{
+  display: none;
+ justify-content: center;
+
+}

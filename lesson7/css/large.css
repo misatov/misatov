@@ -42,5 +42,22 @@
    .forecast{
        display:block;
    }
+   /*main section.{
+       max-width: 1200px;
+   }*/
+    .galleryimages{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+      
+   }
+   figure img:hover{
+       box-shadow:0 0 50px black;
+   }
+   figure figcaption{
+    display: block;
+   justify-content: center;
+  
+  }
+   
 
 }
