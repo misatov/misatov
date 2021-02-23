@@ -8,7 +8,7 @@ iframe{
     width: 100%;
 }
 figure figcaption{
-    display: block;
+    display: flex;
    justify-content: center;
   
   }
