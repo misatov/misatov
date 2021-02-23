@@ -54,9 +54,12 @@
        box-shadow:0 0 50px black;
    }
    figure figcaption{
-    display: block;
+    display: flex;
    justify-content: center;
   
+  }
+  main{
+      max-width: 100%;
   }
    
 
