@@ -1,0 +1,15 @@
+@media (min-width:37.5em){
+iframe{
+    display:inline-block;
+}
+.galleryimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+figure figcaption{
+    display: flex;
+   justify-content: center;
+  
+  }
+}
