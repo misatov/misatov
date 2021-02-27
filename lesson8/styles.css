@@ -7,6 +7,7 @@ thead tr th {
   color: black;
   background-color: #7fb9c2;
   padding: 10px;
+  font-size: 1.5em;
 }
 tfoot tr td {
   color: black;
@@ -25,10 +26,12 @@ tr:nth-child(even) {
 tbody tr th {
   color: white;
   background-color: #628ca6;
+  padding: 10px;
 }
 .highlight {
   color: white;
   background-color: #628ca6;
+
 }
 
 tbody tr td {
@@ -39,4 +42,8 @@ table {
   text-align: center;
   border: 1px solid black;
   box-shadow: 5px 5px 7px #628ca6;
+  border-collapse:collapse;
+}
+table, tr, th, td{
+  border: 1px solid rgb(185, 182, 182);
 }
