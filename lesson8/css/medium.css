@@ -12,4 +12,7 @@ figure figcaption{
    justify-content: center;
   
   }
+  .container{
+      width:auto;
+  }
 }

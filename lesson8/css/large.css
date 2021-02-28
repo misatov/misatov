@@ -61,6 +61,20 @@
   main{
       max-width: 100%;
   }
+  .container{
+   margin: 20px auto;
+
+    max-width: 800px;
+  }
+  fieldset{
+    max-width: 800px;
+    
+    }
+    input.textarea{
+        width:600px;
+        height:200px;
+      }
+      
    
 
 }
