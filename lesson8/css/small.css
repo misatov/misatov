@@ -223,7 +223,7 @@ fieldset{
   label {
     /* Uniform size & alignment */
     display:block;
-    width: 100;
+    width: 100%;
     text-align: left;
     font-family: "M PLUS Rounded 1c", sans-serif;
     margin: 30px;
