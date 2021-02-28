@@ -205,3 +205,38 @@ figure figcaption{
  justify-content: center;
 
 }
+.container{
+  
+  margin:50px auto;
+  max-width: 800px;
+}
+fieldset{
+  margin: 10px auto;
+ 
+  color: #6c756b;
+  max-width: 800px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  }
+
+  label {
+    /* Uniform size & alignment */
+    display:block;
+    width: 600px;
+    text-align: left;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin: 30px;
+  }
+.btn{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin: 50px auto;
+    padding:10px 60px;
+  }
+  input.textarea{
+    width:400px;
+    height:60px;
+  }
+  
+  

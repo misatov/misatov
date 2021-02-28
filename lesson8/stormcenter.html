@@ -1,18 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Storm Center</title>
-
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="images/favicon.ico" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=M+PLUS+Rounded+1c&display=swap"
@@ -22,8 +13,10 @@
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
 
-    <title>Weather Eye Network</title>
+    <title>Storm Center</title>
+
 </head>
+
 
 <body>
     <header>
@@ -35,23 +28,79 @@
         </section>
 
     </header>
+
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;Menu</button>
         <ul id="nav" class="navigation">
 
             <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Preston</a></li>
+            <li class="active"><a href="">Preston</a></li>
             <li><a href="#">Soda Spring</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
-    
+
     <main>
-        <section>
-            <label for="name">Name:</label>
-            <input type="text">
+        <section class="container">
+        <h1>Storm Report</h1>
+      
+            <fieldset>
+                <legend> Your Information</legend>
+                <label for="name">Name:
+                    <input type="text" id="name" name="name" placeholder="Kent Smith" required>
+                </label>
+                <label for="Email">
+                    Email:
+                    <input type="text" id="email" name="email" placeholder="example@domain.com"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                </label>
+                <label for="phone_number">Phone Number:
+                    <input type="tel" id="phone" name="phone" placeholder="XXX-XXX-XXXX"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </label>
+                <label for="zip_code">Zip Code:
+                    <input type="number" id="zip" name="zip" placeholder="12345"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label for="storm_date">Storm Date:
+                    <input type="date" id="date" name="storm_date"></label>
+                <label for="storm_severity">Storm Severity: (between 1 to 10)
+                    <input type="range" id="severity" name="severity" list="tickmark"></label>
+
+                <datalist id="Severity">
+                    <option value="Preston">Preston</option>
+                    <option value="Soda">Soda Springs</option>
+                    <option value="Fish">Fish Haven</option>
+
+
+                </datalist>
+
+
+            </fieldset>
+            <fieldset>
+                <legend>Your Safety</legend>
+                <label class="safety">Are you in danger? </label>
+                <label class="safety"><input type="radio" name="safety" value="yes"> Yes
+                </label>
+                <label class="safety"><input type="radio" name="safety" value="maybe">
+                    Maybe</label>
+                <label class="safety"><input type="radio" name="safety" value="no"> No
+                </label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information or Comments</legend>
+                <label class="comment">Additional Comments <br><input type="text" name="textarea" class="textarea"></label>
+            </fieldset>
+            <button type="submit" value="Send Report" class="btn">Send Report</button>
+
+            </form>
+
+
 
         </section>
 
@@ -59,25 +108,29 @@
 
     </main>
     <footer>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8374.465922431293!2d-111.8707929610582!3d42.08988842121853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2smx!4v1612670752432!5m2!1sen!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8374.465922431293!2d-111.8707929610582!3d42.08988842121853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2smx!4v1612670752432!5m2!1sen!2smx"
+            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+
         <section class="footerinfo">
-        <p>&copy;2021| Weather Eye Network </p>
+            <p>&copy;2021| Weather Eye Network </p>
             <p>Email to:<a href="info@weathereyenetwork.com">info@weathereyenetwork.com</a></p>
             <p>Today's date:<span id="currentdate"></span></p>
-       
-        <p>30 N 1st E Preston, ID 83263</p>
-        <div class="social">
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
-                    alt="Facebook Icon" /></a>
-            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram.png"
-                    alt="Instagram Icon" /></a>
-            <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png"
-                    alt="Twitter Icon" /></a>
-            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="YouTube Icon" /></a>
 
-        </div>
-    </section>
+            <p>30 N 1st E Preston, ID 83263</p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
+                        alt="Facebook Icon" /></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram.png"
+                        alt="Instagram Icon" /></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png"
+                        alt="Twitter Icon" /></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png"
+                        alt="YouTube Icon" /></a>
+
+            </div>
+        </section>
 
     </footer>
 
@@ -91,6 +144,7 @@
 
 </html>
 
-    
+
 </body>
+
 </html>
