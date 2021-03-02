@@ -15,4 +15,10 @@ figure figcaption{
   .container{
       width:auto;
   }
+  .thanks{
+    display:block;
+    padding: 2em;
+    }
+
 }
+
