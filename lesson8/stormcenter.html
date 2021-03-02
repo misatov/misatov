@@ -45,7 +45,7 @@
     <main>
         <section class="container">
             <h1>Storm Report</h1>
-
+            <form action="thanks.html" method="get">
             <fieldset>
                 <legend> Your Information</legend>
                 <label for="name">Name:*
@@ -58,7 +58,7 @@
                 </label>
                 <label for="phone_number">Phone Number:*
                     <input type="tel" id="phone" name="phone" placeholder="XXX-XXX-XXXX"
-                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                        required>
                 </label>
                 <label for="zip_code">Zip Code:*
                     <input type="number" id="zip" name="zip" placeholder="12345" required></label>
@@ -70,7 +70,8 @@
                     <input type="date" id="date" name="storm_date"></label>
                 <label for="storm_severity">Storm Severity: (between 1 to 10)
                     <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                   
+                   <span id="ratingvalue">5</span>
+                </label>
                     <datalist id="tickmarks">
                         <option value="0">
                         <option value="1">
@@ -83,7 +84,7 @@
                         <option value="8">
                         <option value="9">
                         <option value="10">
-                      </datalist></label>
+                      </datalist>
                 
                       <label>Storm Region:
                         <input name="region" list="region"></label>
@@ -154,6 +155,7 @@
                         alt="YouTube Icon" /></a>
 
             </div>
+        </form>   
         </section>
 
     </footer>
@@ -162,6 +164,7 @@
     <script src="js/script.js"></script>
     <script src="js/bannerad.js"></script>
     <script src="js/progressiveimages.js"></script>
+    
 
 
 </body>
