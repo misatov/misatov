@@ -23,9 +23,6 @@ fetch(requestURL)
       birthD.textContent = "Birth Date :" + ' ' + prophets[i].birthdate;
       birthP.textContent = 'Birth Place :'+ ' ' + prophets[i].birthplace;
       image.setAttribute('src', prophets[i].imageurl);
-      
-
-    
     
       //use template intervals
        
@@ -35,8 +32,7 @@ fetch(requestURL)
         card.appendChild(birthP);
         card.appendChild(image);
      
-
-    //select output location//
+       //select output location//
     document.querySelector('div.cards').appendChild(card);
    }
     });
