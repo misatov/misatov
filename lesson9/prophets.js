@@ -23,7 +23,7 @@ fetch(requestURL)
       birthD.textContent = "Birth Date :" + ' ' + prophets[i].birthdate;
       birthP.textContent = 'Birth Place :'+ ' ' + prophets[i].birthplace;
       image.setAttribute('src', prophets[i].imageurl);
-      image.setAttribute('alt', prophets[i].name + '' + prophets[i].lastname + '-'+ prophets[i].length);
+      image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '-'+ prophets[i].length);
     
       //use template intervals
        
