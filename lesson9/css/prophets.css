@@ -50,6 +50,9 @@ footer{
 
 
 @media (min-width: 32.5em) {
+    header, footer{
+        font-size: 2em;
+    }
     .cards{
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -58,23 +61,15 @@ footer{
 }
 @media (min-width: 67.5em){
     header{
-        text-align: center;
         font-size: 3em;
-        color: #56518b;
-        font-weight: bold;
-        padding:20px;
     }
     .cards{
         display: grid;
         grid-template-columns: repeat(4
         , 1fr);
     }
-    footer{
-        text-align: center;
+    footer{      
         font-size: 2em;
-        color: #56518b;
-        font-weight: bold;
-        padding:20px;
     }
    
 }
