@@ -35,9 +35,11 @@ img{
     width: 330px;
     height: 440px;
     align-items: center;
-    padding: 1em;
-    margin: 0 auto;
+    box-shadow: 5px 5px 30px #333;
+    margin: 2em auto;
+  
 }
+
 footer{
     text-align: center;
     font-size: 2em;
