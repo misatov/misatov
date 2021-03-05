@@ -7,21 +7,27 @@ header{
     font-size: 3em;
     color: #56518b;
     font-weight: bold;
+    padding:20px;
 }
+
 .cards{
-    display: grid;
-    grid-template-columns: repeat(4
-    , 1fr);
-   
+    display:grid;
+    grid-template-columns: 1fr;
 }
 section h2{
     text-align: center;
+    color: #56518b;
+
+}
+section p{
+    text-align: center;
+    color: black;
 
 }
 section {
     text-align: center;
     background-color: #b8b9cd;
-    border-color:#56518b;
+    border: 1px solid #56518b;
     margin: 0.5em;
 }
 img{
@@ -31,4 +37,28 @@ img{
     align-items: center;
     padding: 1em;
     margin: 0 auto;
+}
+footer{
+    text-align: center;
+    font-size: 2em;
+    color: #56518b;
+    font-weight: bold;
+    padding:20px;
+}
+
+
+@media (min-width: 32.5em) {
+    .cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media (min-width: 67.5em){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4
+        , 1fr);
+       
+    }
 }
