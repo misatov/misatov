@@ -4,7 +4,7 @@ body{
 }
 header{
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     color: #56518b;
     font-weight: bold;
     padding:20px;
@@ -42,7 +42,7 @@ img{
 
 footer{
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     color: #56518b;
     font-weight: bold;
     padding:20px;
@@ -57,10 +57,17 @@ footer{
 
 }
 @media (min-width: 67.5em){
+    header, footer{
+        text-align: center;
+        font-size: 3em;
+        color: #56518b;
+        font-weight: bold;
+        padding:20px;
+    }
     .cards{
         display: grid;
         grid-template-columns: repeat(4
         , 1fr);
-       
     }
+   
 }
