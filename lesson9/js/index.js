@@ -29,7 +29,7 @@ fetch(requestURL)
             cP.textContent = 'Current Population:' + three[i].currentPopulation;
             aR.textContent = ' Annual Rain Fall:' + three[i].averageRainfall;
             image.setAttribute('src', 'images/' + three[i].photo);
-            image.setAttribute('src', three[i].name);
+            image.setAttribute('alt', three[i].name);
 
             //select output location//
             card.appendChild(heading);
