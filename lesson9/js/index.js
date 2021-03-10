@@ -5,10 +5,11 @@ const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 })
 .then(function(jsonObject){
     const towns = jsonObject['towns'];
+    const three = towns.filter(towns =>(towns.name == "Fish Haven" || towns.name == "Preston" || towns.name == "Soda Springs"));
 
     // codes ideas from the discussion board of Week 9
 
-    for(towns[i].name == "Fish Haven" || towns[i].name == "preston" || towns[i].name == "Soda springs"){
+    for(let i=0; i < three.length; i++){
         let card = document.createElement('section'); // insert in section tab
         let heading = document.createElement('h2');
         
@@ -19,15 +20,15 @@ const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
         let image = document.createElement('img');
         
         //output conditions
-        heading.textContent = towns[i].name;
+        heading.textContent =three[i].name;
         heading.setAttribute('class','town_name');
-        motto.textContent = towns[i].motto;
+        motto.textContent = three[i].motto;
         motto.setAttribute('class', 'town_motto');
-        year.textContent = 'Year Founded:' + towns[i].yearFounded;
-        cP.textContent = 'Current Population:' + towns[i].currentPopulation;
-        aR.textContent = ' Annual Rain Fall:' + towns[i].averageRainfall;
-        image.setAttribute('src','images/ + towns[i].photo');
-        image.setAttribute('src', towns[i].name);
+        year.textContent = 'Year Founded:' + three[i].yearFounded;
+        cP.textContent = 'Current Population:' + three[i].currentPopulation;
+        aR.textContent = ' Annual Rain Fall:' + three[i].averageRainfall;
+        image.setAttribute('src','images/' + three[i].photo);
+        image.setAttribute('src', three[i].name);
 
         //select output location//
         card.appendChild(heading);
@@ -39,6 +40,5 @@ const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
         document.querySelector('div.idahoTown').appendChild(card);
 
-    
     }
 });
