@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/favicon.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=M+PLUS+Rounded+1c&display=swap"
+        rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+    <title>Weather Eye Network</title>
+</head>
+
+<body>
+    <header>
+        <picture><img src="images/weathericon.png" alt="Weather Icon"></picture>
+
+        <section class="headings">
+            <h1>Weather Eye Network</h1>
+            <p class="message">Stay in the local events!</p>
+        </section>
+
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="nav" class="navigation">
+
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <h1>The Town of Preston</h1>
+     
+        <div class="hero">
+           
+            <section class="summary">
+                <h1>Weather Summary</h1>
+                
+                <ul>
+                    <li>Currently:Sunny</li>
+                    <li>Hight: 76F</li>
+                    <li>Wind Chill: F</li>
+                    <li>Humidity: 69%</li>
+                    <li>Wind Speed:5 mph</li>
+
+                </ul>
+            </section>
+            <img src="images/winterweather.jpg">
+        </div>
+
+        <section class="forecast">
+            <h1>5 day Forecast</h1>
+            <table class="forecasttable">
+                    <tr>
+                        
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thr</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+
+                    <tr>
+                        <td><img src="images/011-sun.png"></td>
+                        <td><img src="images/011-sun.png"></td>
+                        <td><img src="images/024-rain.png"></td>
+                        <td><img src="images/024-rain.png"></td>
+                        <td><img src="images/011-sun.png"></td>
+                        <td><img src="images/011-sun.png"></td>
+                        <td><img src="images/011-sun.png"></td>
+                    </tr>
+                    <tr>
+                        <th>H:55°/L:40°</th>
+                        <th>H:62°/L:38°</th>
+                        <th>H:50°/L:39°</th>
+                        <th>H:55°/L:36°</th>
+                        <th>H:59°/L:41°</th>
+                        <th>H:60°/L:41°</th>
+                        <th>H:72°/L:41°</th>
+
+                    </tr>
+
+              
+            </table>
+
+        </section>
+        <section>
+        <h1>Event Information for the Week</h1>
+        <div class="info">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laudantium optio dicta tenetur ducimus,
+                itaque,
+                quibusdam fugiat sit placeat obcaecati iure suscipit, aliquam ratione reprehenderit. Praesentium
+                voluptatem
+                earum nostrum asperiores corrupti. Iure voluptate rem ratione incidunt hic pariatur, architecto nam
+                quidem
+                odit natus minima obcaecati adipisci ab tempore ut praesentium!</p>
+                <img class="snowboarding" src="images/skatebording.jpg" alt="">
+        </div>
+    </section>
+
+
+
+
+
+    </main>
+    <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8374.465922431293!2d-111.8707929610582!3d42.08988842121853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2smx!4v1612670752432!5m2!1sen!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        
+        <section class="footerinfo">
+        <p>&copy;2021| Weather Eye Network </p>
+            <p>Email to:<a href="info@weathereyenetwork.com">info@weathereyenetwork.com</a></p>
+            <p>Today's date:<span id="currentdate"></span></p>
+       
+        <p>30 N 1st E Preston, ID 83263</p>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
+                    alt="Facebook Icon" /></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram.png"
+                    alt="Instagram Icon" /></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png"
+                    alt="Twitter Icon" /></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="YouTube Icon" /></a>
+
+        </div>
+    </section>
+
+    </footer>
+
+    <script src="js/date.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bannerad.js"></script>
+
+
+</body>
+
+</html>
