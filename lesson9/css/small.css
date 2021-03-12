@@ -251,4 +251,14 @@ fieldset{
   .snowB{
     max-width: 400px;
   }
+  article{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  article img{
+    grid-column: 1/2;
+  }
+  article p{
+    grid-column: 2/3;
+  }
  
