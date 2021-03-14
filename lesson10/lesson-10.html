@@ -47,11 +47,11 @@
                 <h1>Weather Summary</h1>
                 
                 <ul>
-                    <li>Currently:Sunny</li>
-                    <li>Hight: 76F</li>
-                    <li>Wind Chill: F</li>
-                    <li>Humidity: 69%</li>
-                    <li>Wind Speed:5 mph</li>
+                    <li>Currently:<span id="temp"></span>&deg;F</li>
+                    <li>High:<span id="max"></span>&deg;F</li>
+                    <li>Wind Chill:<span id="windchill"></span>&deg; F</li>
+                    <li>Humidity:<span id="humidity"></span></li>
+                    <li>Wind Speed:<span id="speed"></span> mph</li>
 
                 </ul>
             </section>
@@ -63,30 +63,30 @@
             <table class="forecasttable">
                     <tr>
                         
-                        <th>Mon</th>
-                        <th>Tue</th>
-                        <th>Wed</th>
-                        <th>Thr</th>
-                        <th>Fri</th>
+                        <th><span id ="day1"></span>Mon</th>
+                        <th><span id ="day2"></span>Tue</th>
+                        <th><span id ="day3"></span>Wed</th>
+                        <th><span id ="day4"></span>Thr</th>
+                        <th><span id ="day5"></span>Fri</th>
 
                     </tr>
 
                     <tr>
                         
-                        <td><img src="images/011-sun.png"></td>
-                        <td><img src="images/024-rain.png"></td>
-                        <td><img src="images/024-rain.png"></td>
-                        <td><img src="images/011-sun.png"></td>
-                        <td><img src="images/011-sun.png"></td>
+                        <td><span id="imgdata1"></span><img src="www.placeholder.com/100/100" id="image1"></td>
+                        <td><span id="imgdata2"></span><img src="www.placeholder.com/100/100" id="image2"></td>
+                        <td><span id="imgdata3"></span><img src="www.placeholder.com/100/100" id="image3"></td>
+                        <td><span id="imgdata4"></span><img src="www.placeholder.com/100/100" id="image4"></td>
+                        <td><span id="imgdata5"></span><img src="www.placeholder.com/100/100" id="image5"></td>
                         
                     </tr>
                     <tr>
                         
-                        <th>H:62°/L:38°</th>
-                        <th>H:50°/L:39°</th>
-                        <th>H:55°/L:36°</th>
-                        <th>H:59°/L:41°</th>
-                        <th>H:60°/L:41°</th>
+                        <th><span id="forecast1"></span>&deg;F</th>
+                        <th><span id="forecast2"></span>&deg;F</th>
+                        <th><span id="forecast3"></span>&deg;F</th>
+                        <th><span id="forecast4"></span>&deg;F</th>
+                        <th><span id="forecast5"></span>&deg;F</th>
 
                     </tr>
 
@@ -141,6 +141,7 @@
     <script src="js/script.js"></script>
     <script src="js/bannerad.js"></script>
     <script src="js/prestonapi.js"></script>
+    <script src="js/windchill.js"></script>
 
 
 </body>
