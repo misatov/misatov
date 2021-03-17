@@ -14,7 +14,7 @@ fetch (apiURL1)
 
 
 const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=8bbd262e26fa22b9acfd7a7ad5b87217&units=imperial';
-//table api
+//forecast api
 fetch (apiURL2)
 .then((response) => response.json())
 .then((jsObject) => {
@@ -30,8 +30,12 @@ fetch (apiURL2)
 
     let day = 0;
     const dayofWeek = ['Sun', 'Mon','Tue','Wed','Thu','Fri','Sat'];
+    for (let i = 0; i <jsObject.list.length; i++){
+        if ()
+
+    }
     dayNumber++;
-    
+
     //print in table
     dayofWeek.forEach((forecastfilter => {
         let tData  = document.createElement('td');
@@ -39,10 +43,15 @@ fetch (apiURL2)
         let tImgURL = 'https://openweathermap.org/img/w' + `${forecastfilter.weather[0].icon}` + '.png';
         let d = `${forecastfilter.weather[0].description}`;
 
+
+    //Icon
+        let imagesrc = jsObject.list[i].icon + '.png';
         tImg.setAttribute("src", tImgURL);
         tImg.setAttribute("alt",d);
-        tData.innerHTML = tableimg + `{$forecastfilter.main.temp.toFixed(0)}`;
+    //Temperature
+        tData.innerHTML = tableimg + `${forecastfilter.main.temp.toFixed(0)}`;
         
+        document.getElementById(icon).textContent = (imagesrc);
         table.appendChild(tData);
         console.log(tImgURL);
     }))
