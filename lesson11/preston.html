@@ -38,14 +38,14 @@
         </ul>
     </nav>
     <main>
-
+        <div class="townPage">
         <h1>The Town of Preston</h1>
-     
+
         <div class="hero">
-           
+
             <section class="summary">
                 <h1>Weather Summary</h1>
-                
+
                 <ul>
                     <li>Currently:<span id="temp"></span>&deg;F</li>
                     <li>High:<span id="max"></span>&deg;F</li>
@@ -55,85 +55,100 @@
 
                 </ul>
             </section>
-            <img src="images/winterweather.jpg">
+            <picture>
+                <source srcset="images/winterweatherSmall400.jpg" media="(max-width:499px)">
+                <source srcset="images/winterweatherMedium800.jpg" media="(min-width:500px) and (max-width:799px)">
+                <source srcset="images/winterweatherLarge1200.jpg" media="(min-width:800px)">
+                <img src="images/winterweather.jpg">
+            </picture>
+
         </div>
 
         <section class="forecast">
             <h1>5 day Forecast</h1>
             <table class="forecasttable">
-                    <tr>
-                        
-                        <th><span id ="day1"></span>Mon</th>
-                        <th><span id ="day2"></span>Tue</th>
-                        <th><span id ="day3"></span>Wed</th>
-                        <th><span id ="day4"></span>Thr</th>
-                        <th><span id ="day5"></span>Fri</th>
+                <tr>
 
-                    </tr>
+                    <th><span id="day1"></span>Mon</th>
+                    <th><span id="day2"></span>Tue</th>
+                    <th><span id="day3"></span>Wed</th>
+                    <th><span id="day4"></span>Thr</th>
+                    <th><span id="day5"></span>Fri</th>
 
-                    <tr>
-                        
-                        <td><span id="imgdata1"></span><img src="https://www.picsum.photos/100/100" id="image1" class="forecast"></td>
-                        <td><span id="imgdata2"></span><img src="https://www.picsum.photos/100/100" id="image2" class="forecast"></td>
-                        <td><span id="imgdata3"></span><img src="https://www.picsum.photos/100/100" id="image3" class="forecast"></td>
-                        <td><span id="imgdata4"></span><img src="https://www.picsum.photos/100/100" id="image4" class="forecast"></td>
-                        <td><span id="imgdata5"></span><img src="https://www.picsum.photos/100/100" id="image5" class="forecast"></td>
-                        
-                    </tr>
-                    <tr>
-                        
-                        <th><span id="forecast1"></span>&deg;F</th>
-                        <th><span id="forecast2"></span>&deg;F</th>
-                        <th><span id="forecast3"></span>&deg;F</th>
-                        <th><span id="forecast4"></span>&deg;F</th>
-                        <th><span id="forecast5"></span>&deg;F</th>
+                </tr>
 
-                    </tr>
+                <tr>
 
-              
+                    <td><span id="imgdata1"></span><img src="https://www.picsum.photos/100/100" id="image1"
+                            class="forecast"></td>
+                    <td><span id="imgdata2"></span><img src="https://www.picsum.photos/100/100" id="image2"
+                            class="forecast"></td>
+                    <td><span id="imgdata3"></span><img src="https://www.picsum.photos/100/100" id="image3"
+                            class="forecast"></td>
+                    <td><span id="imgdata4"></span><img src="https://www.picsum.photos/100/100" id="image4"
+                            class="forecast"></td>
+                    <td><span id="imgdata5"></span><img src="https://www.picsum.photos/100/100" id="image5"
+                            class="forecast"></td>
+
+                </tr>
+                <tr>
+
+                    <th><span id="forecast1"></span>&deg;F</th>
+                    <th><span id="forecast2"></span>&deg;F</th>
+                    <th><span id="forecast3"></span>&deg;F</th>
+                    <th><span id="forecast4"></span>&deg;F</th>
+                    <th><span id="forecast5"></span>&deg;F</th>
+
+                </tr>
+
+
             </table>
 
         </section>
         <section>
-        <h1>Event Information for the Week</h1>
-        <div class="info">
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laudantium optio dicta tenetur ducimus,
-                itaque,
-                quibusdam fugiat sit placeat obcaecati iure suscipit, aliquam ratione reprehenderit. Praesentium
-                voluptatem
-                earum nostrum asperiores corrupti. Iure voluptate rem ratione incidunt hic pariatur, architecto nam
-                quidem
-                odit natus minima obcaecati adipisci ab tempore ut praesentium!</p>
-                <img class="snowboarding" src="images/skatebording.jpg" alt="">
-        </div>
-    </section>
+            <h1>Event Information for the Week</h1>
+            <div class="info">
 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laudantium optio dicta tenetur ducimus,
+                    itaque,
+                    quibusdam fugiat sit placeat obcaecati iure suscipit, aliquam ratione reprehenderit. Praesentium
+                    voluptatem
+                    earum nostrum asperiores corrupti. Iure voluptate rem ratione incidunt hic pariatur, architecto nam
+                    quidem
+                    odit natus minima obcaecati adipisci ab tempore ut praesentium!</p>
+                <img class="snowboarding" src="images/skatebording.jpg" alt="">
+            </div>
+        </section>
+    </div>
 
 
 
 
     </main>
     <footer>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8374.465922431293!2d-111.8707929610582!3d42.08988842121853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2smx!4v1612670752432!5m2!1sen!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8374.465922431293!2d-111.8707929610582!3d42.08988842121853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2smx!4v1612670752432!5m2!1sen!2smx"
+            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+
         <section class="footerinfo">
-        <p>&copy;2021| Weather Eye Network </p>
+            <p>&copy;2021| Weather Eye Network </p>
             <p>Email to:<a href="info@weathereyenetwork.com">info@weathereyenetwork.com</a></p>
             <p>Today's date:<span id="currentdate"></span></p>
-       
-        <p>30 N 1st E Preston, ID 83263</p>
-        <div class="social">
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
-                    alt="Facebook Icon" /></a>
-            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram.png"
-                    alt="Instagram Icon" /></a>
-            <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png"
-                    alt="Twitter Icon" /></a>
-            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="YouTube Icon" /></a>
 
-        </div>
-    </section>
+            <p>30 N 1st E Preston, ID 83263</p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
+                        alt="Facebook Icon" /></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram.png"
+                        alt="Instagram Icon" /></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png"
+                        alt="Twitter Icon" /></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png"
+                        alt="YouTube Icon" /></a>
+
+            </div>
+        </section>
 
     </footer>
 
