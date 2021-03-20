@@ -52,8 +52,19 @@
     display: flex;
     justify-content: center;
   }
-  main {
+  main.townPage{
     max-width: 100%;
+  }
+  fieldset{
+      max-width: 800px;
+  }
+  input.textarea {
+    width: 600px;
+    height: 200px;
+  }
+  .container{
+      margin:20px auto;
+      max-width: 800px;
   }
 
   .idahoTown {

@@ -199,6 +199,33 @@ figure figcaption{
  justify-content: center;
 
 }
+fieldset{
+  margin:10px auto;
+  color:#6c756b;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+section{
+display: block;
+}
+label{
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  margin: 30px;
+}
+input.textarea {
+  width: 200px;
+  height: auto;
+}
+.btn {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  margin: 50px auto;
+  padding: 10px 60px;
+}
 .idahoTown{
   margin:30px 0;
 }
