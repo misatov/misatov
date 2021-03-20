@@ -96,10 +96,10 @@ main p {
     position:relative;
     margin: 10px auto;
 }
-
 .hero img{
-    width:100%;
+  width:100%;
 }
+
 .summary{
   position:absolute;
   border: 1px solid white;
