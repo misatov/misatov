@@ -30,30 +30,34 @@ fetch (apiURL2)
 
     let day = 0;
     const dayofWeek = ['Sun', 'Mon','Tue','Wed','Thu','Fri','Sat'];
-    for (let i = 0; i <jsObject.list.length; i++){
-        if ()
+  /*   for (let i = 0; i <jsObject.list.length; i++){
+        if (jsObject.list[i].dt_txt.includes("18:00:00") == true){
+ */
+//print in table
+dayofWeek.forEach((forecastfilter => {
+    let tData  = document.createElement('td');
+    let tImg = document.createElement('img');
+    let tImgURL = 'https://openweathermap.org/img/w' + `${forecastfilter.weather[0].icon}` + '.png';
+    let d = `${forecastfilter.weather[0].description}`;
+
+
+//Icon
+    let imagesrc = jsObject.list[i].icon + '.png';
+    tImg.setAttribute("src", tImgURL);
+    tImg.setAttribute("alt",d);
+//Temperature
+    tData.innerHTML = tableimg + `${forecastfilter.main.temp.toFixed(0)}`;
+    
+    document.getElementById(icon).textContent = (imagesrc);
+    table.appendChild(tData);
+    console.log(tImgURL);
+
+        }
 
     }
     dayNumber++;
 
-    //print in table
-    dayofWeek.forEach((forecastfilter => {
-        let tData  = document.createElement('td');
-        let tImg = document.createElement('img');
-        let tImgURL = 'https://openweathermap.org/img/w' + `${forecastfilter.weather[0].icon}` + '.png';
-        let d = `${forecastfilter.weather[0].description}`;
-
-
-    //Icon
-        let imagesrc = jsObject.list[i].icon + '.png';
-        tImg.setAttribute("src", tImgURL);
-        tImg.setAttribute("alt",d);
-    //Temperature
-        tData.innerHTML = tableimg + `${forecastfilter.main.temp.toFixed(0)}`;
-        
-        document.getElementById(icon).textContent = (imagesrc);
-        table.appendChild(tData);
-        console.log(tImgURL);
+    
     }))
 
 

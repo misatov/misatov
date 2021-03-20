@@ -42,5 +42,17 @@
    .forecast{
        display:block;
    }
+   .idahoTown{
+       display:flex;
+       justify-content: center;
+   }
+   .idahoTown section{
+       display: block;
+       width:300px;
+       margin:5px;
+   }
+   .town_motto{
+       justify-content: space-around;
+   }
 
 }

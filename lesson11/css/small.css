@@ -180,6 +180,21 @@ footer{
   flex-wrap: wrap;
 
 }
+.idahoTown{
+  margin:30px 0;
+}
+.idahoTown section{
+  text-align: center;
+  border: 1px solid black;
+}
+.idahoTown p{
+  font-size: 20px;
+  border: 0px none white;
+  
+}
+.town_motto h3{
+  justify-content:end;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
