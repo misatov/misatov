@@ -30,9 +30,33 @@ fetch (apiURL2)
 
     let day = 0;
     const dayofWeek = ['Sun', 'Mon','Tue','Wed','Thu','Fri','Sat'];
-  /*   for (let i = 0; i <jsObject.list.length; i++){
-        if (jsObject.list[i].dt_txt.includes("18:00:00") == true){
- */
+
+     
+    for (let i = 0; i <jsObject.list.length; i++){
+      let day = "day" + ${'i'};
+      let icon = "icon"+ ${'i'};
+      let temp = "temp"+ ${'i'};
+      
+      let imagesrc = 'https://openweathermap.org/img/w' + `${forecastfilter.weather[0].icon}` + '.png';
+      let d = `${forecastfilter.weather[0].description}`;
+
+      let dayName = days[d.getDay()];
+    
+      //dayname
+      document.getElementById(day).textContent =dayName;
+      //icon
+      document.getElementById(icon).setAttribute('src',imagesrc);
+      document.getElementById(icon).setAttribute("alt",d);
+      //temperature
+      document.getElementById(temp).textContent =`${forecastfilter.main.temp.toFixed(0)}`;
+
+       console.log(imgsrc);
+       i++;
+      
+  }
+
+
+/* 
 //print in table
 dayofWeek.forEach((forecastfilter => {
     let tData  = document.createElement('td');
@@ -52,13 +76,8 @@ dayofWeek.forEach((forecastfilter => {
     table.appendChild(tData);
     console.log(tImgURL);
 
-        }
+    i++; */
 
     }
-    dayNumber++;
 
-    
-    }))
-
-
-}); 
+); 
