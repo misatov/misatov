@@ -31,11 +31,10 @@ fetch (apiURL2)
     let day = 0;
     const dayofWeek = ['Sun', 'Mon','Tue','Wed','Thu','Fri','Sat'];
 
-     
     for (let i = 0; i <jsObject.list.length; i++){
-      let day = "day" + ${i};
-      let icon = "icon"+ ${i};
-      let temp = "temp"+ ${i};
+      let day = "day" + $,{i};
+      let icon = "icon"+ $,{i};
+      let temp = "temp"+ $,{i};
       
       let imagesrc = 'https://openweathermap.org/img/w' + `${forecastfilter.weather[0].icon}` + '.png';
       let d = `${forecastfilter.weather[0].description}`;
