@@ -75,7 +75,6 @@ dayofWeek.forEach((forecastfilter => {
     console.log(tImgURL);
 
     i++; */
-
-    }
+}
 
 ); 
