@@ -38,7 +38,6 @@ fetch (apiURL2)
       
       let imagesrc = 'https://openweathermap.org/img/w' + `${forecastfilter.weather[0].icon}` + '.png';
       let d = `${forecastfilter.weather[0].description}`;
-
       let dayName = days[d.getDay()];
     
       //dayname
