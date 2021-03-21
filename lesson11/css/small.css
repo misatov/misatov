@@ -244,12 +244,15 @@ section h3{
   justify-content:end;
   font-family:"M PLUS Rounded 1c", sans-serif;
   color: #6c756b;
+  font-size: 13px;
 }
 section p{
   margin:0;
 }
 section img{
-  padding: 20px 0;
+  margin: 20px 0;
+
+  
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
