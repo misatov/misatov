@@ -34,6 +34,9 @@
     grid-template-columns: 2fr 1fr;
     margin: 10px 0;
   }
+  picture img{
+      width:100%;
+  }
   .summary h1 {
     font-size: 24px;
   }
