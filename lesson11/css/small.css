@@ -240,9 +240,18 @@ input.textarea {
   border: 0px none white;
   
 }
-.town_motto h3{
+section h3{
   justify-content:end;
+  font-family:"M PLUS Rounded 1c", sans-serif;
+  color: #6c756b;
 }
+section p{
+  margin:0;
+}
+section img{
+  padding: 20px 0;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";

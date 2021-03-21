@@ -48,6 +48,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  /* main div.hero-image{
+     max-width: 1000px;
+  } */
   figure img{
     width: auto;
   }
